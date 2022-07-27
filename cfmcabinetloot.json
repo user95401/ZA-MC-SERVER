@@ -1,0 +1,402 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "nzsmod:aptechka"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "nzsmod:food2",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "nzsmod:food3",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "nzsmod:food4",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "nzsmod:food2"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "nzsmod:food3"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "nzsmod:food4"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "nzsmod:fryingpan"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "nzsmod:bate"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "cfm:item_knife"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "cfm:item_spatula"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "cfm:item_soap"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "cfm:plate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "cfm:item_cup",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:beetroot_soup"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:apple"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "cfm:item_bread_slice"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bread"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cookie"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "modularwarfare:prototype.p88"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "modularwarfare:prototype.p88ammo",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ammocount:15,skinId:0,bullet:{id:\"modularwarfare:prototype.9x19\",Count:1b,Damage:0s}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "modularwarfare:prototype.uzi"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "modularwarfare:prototype.uziammo",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ammocount:25,skinId:0,bullet:{id:\"modularwarfare:prototype.9x19\",Count:1b,Damage:0s}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "modularwarfare:aw_mossberg"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "modularwarfare:prototype.12gauge",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "modularwarfare:prototype.taurus"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "modularwarfare:prototype.44magnum",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "toughasnails:wool_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "toughasnails:wool_chestplate"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "toughasnails:wool_leggings"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "toughasnails:wool_boots"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:leather_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:leather_chestplate"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:leather_leggings"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:leather_boots"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:torch",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:planks",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:log",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:flint_and_steel"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:iron_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:iron_pickaxe"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fishing_rod"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "cfm:item_crow_bar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8Им можно сломать запечатанные ящики...\"]},AttributeModifiers:[{UUIDMost:-4505810723002234785L,UUIDLeast:-8097350703617291150L,Amount:3.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"generic.attackDamage\"},{UUIDMost:-4373156083809825693L,UUIDLeast:-8657974911240857153L,Amount:-3.0d,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\",Operation:0,Name:\"generic.attackSpeed\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "cfm:item_hammer",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{UUIDMost:-4505810723002234785L,UUIDLeast:-8097350703617291150L,Amount:2.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"generic.attackDamage\"},{UUIDMost:-4373156083809825693L,UUIDLeast:-8657974911240857153L,Amount:-3.0d,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\",Operation:0,Name:\"generic.attackSpeed\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "cfm:item_log",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 16
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
